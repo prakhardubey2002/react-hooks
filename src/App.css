@@ -1,0 +1,53 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+.App{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif,'Segoe UI', Tahoma, Verdana, sans-serif;
+  background: #ee9ca7;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #ffdde1, #ee9ca7);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ffdde1, #ee9ca7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.App h1{
+  font-size: 2.2rem;
+  font-weight: 400;
+}
+.App .quantity{
+  width: 40vw;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.App .quantity a{
+  
+  width: 1.6rem;
+  height: 1.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  background: linear-gradient(to right, #ff0099, #493240);
+  color: aliceblue;
+  border-radius: 0.4rem;
+}
+.App .quantity input{
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding:0.6rem;
+  margin: 0 2rem;
+  background: linear-gradient(to right, #ff0099, #493240);
+  color: aliceblue;
+  border-radius: 0.4rem;
+  border: 0px;
+  font-size: 1.2rem;
+}
