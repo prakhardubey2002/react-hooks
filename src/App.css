@@ -37,3 +37,10 @@
   background-color: plum;
   border-radius: 1rem;
 }
+.hooks2 button{
+  padding: 1rem;
+  font-size: 2rem;
+  margin: 1rem;
+  border-radius: 1rem;
+  border: 0px;
+}
