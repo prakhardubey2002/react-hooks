@@ -3,6 +3,7 @@ import Useeffect from './components/Useeffect';
 import Usestates from './components/Usestate';
 import UseMemo from './components/UseMemo';
 import UseRef from './components/UseRef';
+import UseReducer from './components/UseReducer';
 const  App = () => {
   return (
     <>
@@ -11,6 +12,7 @@ const  App = () => {
       <Useeffect/>
       <UseMemo/>
       <UseRef/>
+      <UseReducer/>
     </div>
     </>
   );
