@@ -3,7 +3,7 @@ import React, { useState,useEffect,useRef } from 'react';
 const UseRef = () => {
     const [name,setName]=useState('')
 
-    const renderCount =useRef(1)//the difference between state and react is that it does'nt cause application to rerender like state does so value will keep addying is useeffect
+    const renderCount =useRef(1)//the difference between state and ref is that it does'nt cause application to rerender like state does so value will keep addying is useeffect
     
     useEffect(() => {
         renderCount.current =renderCount.current +1;
